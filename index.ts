@@ -25,7 +25,7 @@ server.app.use('/posts', postRoutes );
 
 
 // Conectar DB
-mongoose.connect('mongodb://localhost:27017/fotosgram', 
+mongoose.connect('mongodb://admin:Linutopix87@localhost:27017/admin', 
                 { useNewUrlParser: true, useCreateIndex: true }, ( err ) => {
 
    if ( err ) throw err;
